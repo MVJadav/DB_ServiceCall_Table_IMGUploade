@@ -1,0 +1,20 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red28\green0\blue207;\red0\green0\blue0;\red170\green13\blue145;
+\red196\green26\blue22;}
+{\*\expandedcolortbl;;\csgenericrgb\c11000\c0\c81000;\csgenericrgb\c0\c0\c0;\csgenericrgb\c66500\c5200\c56900;
+\csgenericrgb\c77000\c10200\c8600;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20420\viewh10380\viewkind0
+\deftab593
+\pard\tx593\pardeftab593\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 \CocoaLigature0 1\cf3 . Add libsqlite3 file :  [command"+shift+G]\
+   Go to Build Phases > Link Binary with Libraries > + > Add other\
+   While \cf4 in\cf3  the file selection window press: \cf5 "command"\cf3 +shift+G (i.e. Go to folder) and type /usr/lib/\
+  From /user/lib find and add : libz.dylib and libsqlite3.dylib\
+\cf2 2\cf3 . Create Bridge : Build Setting\
+\cf2 3\cf3 . In Plist File:  App Transport Security Settings -> Allow Arbitrary Loads\
+4. In Plist :For Photos\
+   * Privacy - Camera Usage Description\
+   * Privacy - Photo Library Usage Description\
+}
